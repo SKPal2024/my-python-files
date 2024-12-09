@@ -1,0 +1,10 @@
+f=open("file", "a")
+#data=f.read()
+#print(data)
+#print(type(data))
+f.write("I am learning c ")
+#line1=f.readline()
+#print(line1)
+f.close()
+with open('file.txt') as file:
+    print(file.read())
